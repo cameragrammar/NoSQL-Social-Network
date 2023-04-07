@@ -1,6 +1,6 @@
 const { User, Thought } = require("../models");
 
-const userContoller = {
+const userController = {
 
     //Get All Users
     getAllUser (req, res) {
@@ -133,4 +133,4 @@ const userContoller = {
 
 };
 
-module.exports = userContoller;
+module.exports = userController;
